@@ -2,6 +2,7 @@
 {
 	user-select: none !important;
 	outline: none !important;
+	text-decoration: none;
 }
 .SiteText
 {
@@ -14,6 +15,11 @@
 .SmText
 {
 	font-size: 30px;
+}
+.AnimText
+{
+	background-color:#ce3635;
+    color:#fff;
 }
 .Content
 {
