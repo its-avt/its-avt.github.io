@@ -101,9 +101,10 @@ a {
     position: relative;
     text-decoration: none;
 }
-
+/* Some animations*/
 @keyframes caret {
   50% {
     border-color: transparent;
   }
 }
+
