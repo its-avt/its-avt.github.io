@@ -18,56 +18,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="Content/Scripts/listing.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://vk.com/js/api/openapi.js?166"></script>
 </head>
 <body>
-<div class="container-fluid pt-1 bg-white text-black">
+<div class="container-fluid bg-white text-black">
 <!-- NavBar -->
 <header>
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
-    <a class="navbar-brand" href="https://teaglassstudio.github.io">ИТС-Автоматика</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="https://teaglassstudio.github.io">Домой <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about">О Нас</a>
-        </li>
-        <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Услуги
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item text-black" href="#">Проектирование</a>
-        <a class="dropdown-item text-black" href="#">Подбор и поставка оборудования.</a>
-        <a class="dropdown-item text-black" href="#">Разработка программного обеспечения.</a>
-      </div>
-    </li>
-      </ul>
+<section class="et-hero-tabs fixed-top">
+    <div class="et-hero-tabs-container">
+      <a class="et-hero-tab" href="#tab-company">ИТС-Автоматика</a>
+      <a class="et-hero-tab" href="#tab-services">Наши услуги</a>
+      <a class="et-hero-tab" href="#tab-about">О Нас</a>
+      <a class="et-hero-tab" href="#tab-partners">Партнеры</a>
+      <a class="et-hero-tab" href="#tab-contacts">Контакты</a>
+      <span class="et-hero-tab-slider"></span>
     </div>
-  </nav>
+  </section>
 </header>
-<!-- End of NavBar -->
-<h1 class="text-center display-3 container-fluid SiteText">ИТС-Автоматика</h1>
-<div class="alert alert-danger alert-dismissible fade show">
-<button type="button" class="close" data-dismiss="alert">&times;</button>
-<strong>Внимание!</strong> Сайт в разработке!
-</div>
-<h1 class="text-center display-3 container-fluid bg-white text-black SiteText">Наши услуги:</h1>
-<h1 class="d-flex justify-content-center flex-wrap text-center bg-white text-black SiteText">
-  <p class="typewrite" data-period="2000" data-type='[ "Проектирование.", "Подбор и поставка оборудования.", "Разработка программного обеспечения.", "Производство силовых шкафов и щитов автоматики.", "Строительно-монтажные работы.", "Пусконаладочные работы, программирование.", "Гарантийное обслуживание." ]'>
+  <!-- Main -->
+  <div class="alert alert-danger alert-dismissible fade show">
+     <button type="button" class="close" data-dismiss="alert">&times;</button>
+     <strong>Внимание!</strong> Сайт в разработке!
+  </div>
+  <main class="et-main">
+    <section class="et-slide" id="tab-company">
+      <h1 class="text-center display-3 container-fluid SiteText">ИТС-Автоматика</h1>
+      <h3>Описание</h3>
+    </section>
+    <section class="et-slide" id="tab-services">
+      <h1 class="text-center display-3 container-fluid bg-white text-black SiteText">Наши услуги</h1>
+      <h1 class="d-flex justify-content-center flex-wrap text-center bg-white text-black SiteText">
+  <p class="typewrite" data-period="2000" data-type='[ "Проектирование", "Подбор и поставка оборудования", "Разработка программного обеспечения", "Производство силовых шкафов и щитов автоматики", "Строительно-монтажные работы", "Пусконаладочные работы, программирование", "Гарантийное обслуживание" ]'>
     <span class="wrap"></span>
   </p>
 </h1>
-<img class="d-flex float-left img-fluid mh-10 mw-10" src="Content/Images/tea1.png" ondragstart="return false;" alt="Картинка">
-<p class="container-fluid bg-white text-black SmText">Описание</p>
+    </section>
+    <section class="et-slide" id="tab-about">
+      <h1>О Нас</h1>
+      <h3>Описание</h3>
+    </section>
+    <section class="et-slide" id="tab-partners">
+      <h1>Наши партнеры</h1>
+      <h3>Описание</h3>
+    </section>
+    <section class="et-slide" id="tab-contacts">
+      <h1>Контакты</h1>
+      <h3>Описание</h3>
+    </section>
+  </main>
+<!-- End of NavBar -->
 <p class="text-center" style="clear: left;">Подвал</p>
 <!-- justify-content-center -->
 </body>
