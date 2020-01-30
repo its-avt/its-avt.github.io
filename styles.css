@@ -218,16 +218,3 @@ input[type="radio"]:focus {
   margin-bottom: 3rem;
   max-width: 300px;
 }
-
-a:first-child:before
-{
-    content: "ИТС-Автоматика";
-}
-
-@media screen and (max-width: 320px)
-{
-    a:first-child:before
-    {
-        content: "Итс";
-    }
-}
