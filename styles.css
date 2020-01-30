@@ -22,6 +22,15 @@
 	display: inline-block;
 }
 
+.con-fluid
+{
+    width: 100%;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .et-hero-tabs {
     display: flex;
     flex-direction: column;
@@ -100,6 +109,14 @@ a {
     display: inline-block;
     position: relative;
     text-decoration: none;
+}
+
+.footerText
+{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-family: 'Tahoma';
 }
 /* Some animations*/
 @keyframes caret {
