@@ -3,6 +3,7 @@
 	user-select: none !important;
 	outline: none !important;
 	text-decoration: none !important;
+    box-sizing: border-box !important;
 }
 .SiteText
 {
@@ -79,8 +80,8 @@
     flex: 1;
     color: #000;
     letter-spacing: 0.1rem;
-		transition: all 0.5s ease;
-		font-size: 0.8rem;
+	transition: all 0.5s ease;
+	font-size: 0.8rem;
 }
 .et-hero-tab:hover
 {
@@ -197,21 +198,31 @@ input[type="radio"]:focus {
   font-size: 2.7rem;
 }
 .slider__caption {
-  font-weight: 700;
+  width: 200px;
+  height: 100px;
   margin: 2rem 0 1rem;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
 }
+
+.slider__caption_fast {
+  width: 300px;
+  height: 80px;
+  margin: 2rem 0 1rem;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
 .slider__txt {
   color: #999;
   margin-bottom: 3rem;
   max-width: 300px;
 }
 
-@media screen and (min-device-width: 400px)
+@media screen and (max-device-width: 400px)
 {
-    input
+    a
     {
-        margin-top: 2000px; 
+        font-size: 0.1rem;
     }
 }
