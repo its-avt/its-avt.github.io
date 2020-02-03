@@ -22,12 +22,29 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="Content/Scripts/fm.revealator.jquery.js"></script>
   <script src="Content/Scripts/listing.js"></script>
+  <script src="Content/Scripts/scrolling.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 <!-- NavBar -->
 <header>
+  <nav role="navigation" id="navigateBar" class="fixed-top">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <a href="#tab-company"><li>ИТС-Автоматика</li></a>
+      <a href="#tab-services"><li>Наши услуги</li></a>
+      <a href="#tab-projects"><li>Проекты</li></a>
+      <a href="#tab-partners"><li>Партнеры</li></a>
+      <a href="#tab-contacts"><li>Контакты</li></a>
+    </ul>
+  </div>
+</nav>
+<!-- End -->
 <section class="et-hero-tabs fixed-top">
     <div class="et-hero-tabs-container">
       <a class="et-hero-tab" href="#tab-company">ИТС-Автоматика</a>
